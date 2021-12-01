@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    color: #979797;
+}
+
+.wrapper {
+    background: #2d2d2f;
+}
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    font-size: inherit;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.card-txt {
+    padding: 23px 2px 90px 25px;
+}
+.card-txt__balance{
+    display: flex;
+}
+.txt__balance,
+.curent-balance {
+    font-size: 16px;
+    line-height: 24px;
+    color: #313131;
+    opacity: 0.6;
+}
+
+.card-txt__curent-balance,
+.card-txt__count {
+    display: flex;
+}
+.card-txt__count{
+    font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+color: #2D2D2F;
+margin-top: 2px;
+}
+.card-txt__count p + p{
+    padding-left: 9px;
+}
+.card-txt__curent-balance{
+    justify-content: space-between;
+    max-width: 68px;
+}
+.card-btn__item{
+    cursor: pointer;
+    z-index: 10;
+}
+tbody,table{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+@media (max-width: 380px) {
+    .pur-box{
+        width: 90vw !important;
+    }
+}
